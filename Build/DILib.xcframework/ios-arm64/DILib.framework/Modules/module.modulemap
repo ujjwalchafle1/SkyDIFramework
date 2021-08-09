@@ -1,0 +1,11 @@
+framework module DILib {
+  umbrella header "DILib.h"
+
+  export *
+  module * { export * }
+}
+
+module DILib.Swift {
+    header "DILib-Swift.h"
+    requires objc
+}
